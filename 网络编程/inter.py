@@ -7,3 +7,8 @@ import time
 #    time.sleep(1)  # 暂停1秒
 
 print 'sss\r\n'
+
+ISBN = {1:'inter',2:'jojo'}
+
+for i in ISBN:
+    print i
