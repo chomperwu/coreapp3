@@ -20,3 +20,4 @@ print '2',
 print '4'
 print u'6'
 print type(u'6')
+

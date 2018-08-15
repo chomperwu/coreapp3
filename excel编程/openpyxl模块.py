@@ -59,7 +59,7 @@ c3 = ws['C3']
 
 c4 = ws.cell(row=4,column=3)
 print c4
-#也可以通过这种方式获得指定的cell对象
+#也可以通过这种方式获得指定的cell对象<Cell u'\u8282\u76ee\u8868'.C4>
 
 print c3.row   #3
 print c3.column    #C
@@ -73,8 +73,12 @@ print type(c3.value)   #<type 'unicode'>
 #for row in ws.values:
 #    print(*row)
 
+'''
 for i in range(ws.min_row,ws.max_row + 1):
     for j in range(ws.min_column,ws.max_column + 1):
         print ws.cell(row=i,column=j).value,
     print ''
+'''
 
+c4 = ws.cell(row=4,column=3)
+print c4.value
