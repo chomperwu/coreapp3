@@ -4,6 +4,8 @@
 import cgi
 
 reshtml = '''Content-Type: text/html
+
+
 <html><head><title>
 Friends CGI Demo(dynamic)
 </title></head>
